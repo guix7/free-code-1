@@ -1,0 +1,75 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background: url(developer_communities-2048x992.png);
+    background-size: cover;
+}
+
+header h1, header p{
+    text-align: center;
+    color: white;
+}
+
+header h1{
+    font-size: 36px;
+}
+
+main{
+    width: 40%;
+    min-width: 412px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.596);
+    padding: 30px;
+}
+
+.campo{
+    display: block;
+    padding: 10px;
+    width: 97%;
+    outline: 0;
+    
+
+}
+
+select{
+    padding: 10px;
+    width: 100%;
+}
+
+.bloco{
+    display: block;
+    margin: 10px 0;
+}
+
+.branco{
+    color: white;
+    
+}
+
+label{
+    font-size: 24px;
+}
+
+.titulo{
+    display: block;
+    margin: 20px 0;
+    
+}
+
+textarea{
+    font-size: 24px;
+    padding: 10px;
+    width: 97%;
+    outline: 0;
+}
+
+.submit{
+    padding: 10px;
+    width: 100%;
+    background-color: rgb(55,175,101);
+    font-size: 18px;
+    color: white;
+    border: none;
+
+}

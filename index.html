@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>FrecodeCamp Survey Form</h1>
+        <p>Thank you for taking the time to help us improve the platform</p>
+    </header>
+
+    <main>
+        <form action="get">
+            <label for="" class="branco titulo">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" class="campo" required>
+
+            <label for="" class="branco titulo" required>E-mail</label>
+            <input type="email" id="email" placeholder="Enter your e-mail" class="campo">
+
+            <label for="" class="branco titulo" required>Age</label>
+            <input type="number" id="number" placeholder="Age" min="1" max="100" class="campo">
+
+            <label for="" class="branco titulo">Which option best describes your current role?</label>
+            <select name="role" id="role" class="">
+                <option value="select current role">select current role</option>
+                <option value="Student">Student</option>
+                <option value="Full Time Job">Full Time Job</option>
+                <option value="Full Time Learner">Full Time Learner</option>
+            </select>
+
+            <label for="" class="branco titulo">Would you recommend freeCodeCamp to a friend?</label>
+
+            <label for="definitely" class="bloco branco">
+                <input type="radio" name="friend" id="definitely" class="tamanho">
+                definitely</label>
+
+            <label for="maybe" class="bloco branco">
+                <input type="radio" name="friend" id="maybe">
+                maybe</label>
+
+            <label for="sure" class="bloco branco">
+                <input type="radio" name="friend" id="sure">
+                Not Sure</label>
+
+            <label for="" class="branco titulo">What is your favorite feature of freeCodeCamp?</label>
+            <select name="feature" id="feature" class="">
+                <option value="Select an option">Select on option</option>
+                <option value="Challanges">Challanges</option>
+                <option value="Projects">Projects</option>
+                <option value="Community">Community</option>
+                <option value="Open Source">Open Source</option>
+            </select>
+
+            <label for="" class="branco titulo">What would you like to see improved? (Check all that apply)</label>
+
+            <label for="improved" class="bloco branco">
+                <input type="checkbox" name="improved" id="front-end">
+                Front-end Projects</label>
+
+            <label for="back-end" class="bloco branco">
+                <input type="checkbox" name="improved" id="back-end">
+                Back-end Projects</label>
+
+            <label for="data" class="bloco branco">
+                <input type="checkbox" name="improved" id="data">
+                Data Visualization</label>
+
+            <label for="challanges" class="bloco branco">
+                <input type="checkbox" name="improved" id="challanges">
+                Challanges</label>
+
+            <label for="open" class="bloco branco">
+                <input type="checkbox" name="improved" id="open">
+                Open Source Community</label>
+
+            <label for="gitter" class="bloco branco">
+                <input type="checkbox" name="improved" id="gitter">
+                Gitter help rooms</label>
+
+            <label for="videos" class="bloco branco">
+                <input type="checkbox" name="improved" id="videos">
+                Videos</label>
+
+            <label for="city" class="bloco branco">
+                <input type="checkbox" name="improved" id="city">
+                City Meetups</label>
+
+            <label for="wiki" class="bloco branco">
+                <input type="checkbox" name="improved" id="wiki">
+               Wiki</label>
+
+            <label for="courses" class="bloco branco">
+                <input type="checkbox" name="improved" id="courses">
+                Additional Courses</label>
+
+                <label for="" class="branco titulo">Any commnets or suggestions?</label>
+
+                <textarea name="comments" id="comments" cols="60" rows="5" placeholder="Enter yout comment"></textarea>
+
+                <input type="submit" value="Submit" id="submit" class="submit bloco ">
+
+
+
+
+        </form>
+
+
+
+    </main>
+</body>
+
+</html>
